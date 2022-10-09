@@ -1,5 +1,6 @@
 import { Stack, Image, Wrap, WrapItem } from "@chakra-ui/react"
 import { NextPage } from "next"
+import AboutMe from "../components/about-me"
 import Container from "../components/container"
 import Intro from "../components/intro"
 
@@ -22,7 +23,11 @@ const Home: NextPage = () => {
             <WrapItem> <Image src="/jerry.jpg" boxSize={'350px'}/> </WrapItem>
           </Wrap>
 
+        <AboutMe/>
+
         </Stack>
+
+        
 
       </Container>
     </>

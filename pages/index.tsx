@@ -3,6 +3,7 @@ import { NextPage } from "next"
 import AboutMe from "../components/about-me"
 import Container from "../components/container"
 import Intro from "../components/intro"
+import Projects from "../components/projects"
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,8 @@ const Home: NextPage = () => {
           </Wrap>
 
         <AboutMe/>
+
+        <Projects/>
 
         </Stack>
 

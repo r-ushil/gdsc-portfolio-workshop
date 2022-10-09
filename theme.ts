@@ -16,7 +16,7 @@ const fluidType = (minFont: number, maxFont: number) => {
 const colors = {
   background: '#12141D',
   secondary: '#080808',
-  complement: '#FA934F',
+  complement: '#5F99FF',
   displayColor: '#FFFFFF',
   textPrimary: '#D1D5DB',
   textSecondary: '#8F9094',

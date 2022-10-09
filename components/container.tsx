@@ -12,7 +12,7 @@ export default function Container({children}: Props) {
   return (
     <>
       <Navbar/>
-      <Divider />
+      <Divider bgColor={'#5F99FF'} opacity={'20%'}/>
       <Flex as="main" justifyContent="center" flexDirection="column">
         {children}
       </Flex>

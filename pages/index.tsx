@@ -1,9 +1,14 @@
 import { NextPage } from "next"
+import Container from "../components/container"
 
 const Home: NextPage = () => {
   return (
     <>
-      Hello GDSC!
+      <Container>
+
+        Hello GDSC!
+
+      </Container>
     </>
   )
 }

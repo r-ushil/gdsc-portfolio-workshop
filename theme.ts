@@ -20,7 +20,7 @@ const colors = {
   displayColor: '#FFFFFF',
   textPrimary: '#D1D5DB',
   textSecondary: '#8F9094',
-  button1: '#3CCF91',
+  button1: '#5F99FF',
   button2: '#F6A20E',
   button3: '#5132BF',
   borderColor: '#111111',

@@ -34,9 +34,11 @@ export default function Intro() {
         in={true}
         transition={{ enter: { duration: 0.4, delay: 0.9 } }}
       >
+        <Box w={['85vw', '40vw']}>
         <Text fontSize="display3" color="textSecondary">
-          Some description about yourself.
+          Some description about yourself. Lorem ipsum and all that good stuff. Some more waffle to fill up the space.
         </Text>
+        </Box>
       </SlideFade>
 
       <SlideFade

@@ -2,6 +2,7 @@ import { Stack, Image, Wrap, WrapItem } from "@chakra-ui/react"
 import { NextPage } from "next"
 import AboutMe from "../components/about-me"
 import Container from "../components/container"
+import GdscCanvas from "../components/gdsc-canvas"
 import Intro from "../components/intro"
 import Projects from "../components/projects"
 
@@ -19,9 +20,10 @@ const Home: NextPage = () => {
           mt={{ base: '12.5vh', md: '22.5vh' }}
         >
 
-          <Wrap spacing={'17.5vw'}>
+          <Wrap spacing={'5vw'}>
             <WrapItem> <Intro /> </WrapItem>
-            <WrapItem> <Image src="/jerry.jpg" boxSize={'350px'}/> </WrapItem>
+            <WrapItem> <GdscCanvas /> </WrapItem>
+            {/* <WrapItem> <Image src="/jerry.jpg" boxSize={'350px'}/> </WrapItem> */}
           </Wrap>
 
         <AboutMe/>

@@ -25,7 +25,7 @@ export default function Intro() {
           letterSpacing={{ sm: '-1.2px', md: '-1.8px' }}
           position="relative"
         >
-          <Box color="displayColor" as="span">Your Name</Box>
+          <Box color="displayColor" as="span">Rushil</Box>
           .
         </Heading>
       </SlideFade>
@@ -46,7 +46,7 @@ export default function Intro() {
         transition={{ enter: { duration: 0.4, delay: 1.0 } }}
       >
         <Stack isInline spacing={4}>
-          <Link href="https://github.com/" isExternal>
+          <Link href="https://github.com/r-ushil" isExternal>
             <Button
               leftIcon={<FaGithub color="#5F99FF" />}
               position="static"
@@ -57,7 +57,7 @@ export default function Intro() {
               Github
             </Button>
           </Link>
-          <Link href="https://linkedin.com/" isExternal>
+          <Link href="https://linkedin.com/in/rushil791" isExternal>
             <Button
               leftIcon={<FaLinkedin color="#5F99FF" />}
               position="static"
@@ -68,7 +68,7 @@ export default function Intro() {
               LinkedIn
             </Button>
           </Link>
-          <Link href="mailto:gdsc@imperial.ac.uk" isExternal>
+          <Link href="mailto:rp620@imperial.ac.uk" isExternal>
             <Button
               leftIcon={<FaEnvelope fill="#5F99FF" />}
               transition="0.3s"
